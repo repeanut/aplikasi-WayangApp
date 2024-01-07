@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wayangapp</string>
+    <string name="sinta_rama"><![CDATA[SINTA & RAMA]]></string>
+    <string name="rama_sinta"><![CDATA[Rama & Sinta]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

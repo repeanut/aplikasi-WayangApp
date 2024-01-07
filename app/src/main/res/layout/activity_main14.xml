@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F3EE"
+    tools:context=".MainActivity14">
+
+    <ImageView
+        android:layout_width="440dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="390dp"
+        android:background="@drawable/ramayana" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="432dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="-39dp"
+        android:layout_marginBottom="195dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F7F3EE" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="432dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-31dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="-44dp"
+        android:layout_marginBottom="-6dp"
+        android:background="@drawable/circle2"
+        android:backgroundTint="#F7F3EE" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="653dp"
+        android:src="@drawable/bttnramayana" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="383dp"
+        android:src="@drawable/bg_mahyang" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="698dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/bttn" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="535dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Apa Itu Ramayana?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="245dp"
+        android:fontFamily="@font/m_plus_1p_bold"
+        android:text="        Ramayana adalah sebuah wiracarita dari India yang \n         digubah oleh Walmiki (Valmiki) atau Balmiki. Kisah cerita epos ini memiliki alur yang sangat sederhana. Seorang putera mahkota kerajaan Kosala bernama Rama, yang merupakan titisan atau awatara Bhatara Wisnu di dunia, terusir dari kerajaannya sendiri.
+Rama kemudian menjalani masa pengasingan di hutan selama 14 tahun. Selama pengasingannya, Rama ditemani oleh istrinya, Sita, dan adiknya, Laksmana. Di hutan, Rama dan Laksmana harus menghadapi berbagai rintangan, termasuk raksasa-raksasa yang ingin mencelakakan Sita.
+
+Akhirnya, Rama berhasil mengalahkan raja raksasa, Rahwana, dan membebaskan Sita. Rama kemudian kembali ke kerajaannya dan menjadi raja yang bijaksana."
+        android:textColor="@color/black"
+        android:textSize="12.5dp" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="361dp"
+        android:fontFamily="@font/m_plus_1p_bold"
+        android:text="K"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-76dp"
+        android:src="@drawable/ramayanafull" />
+
+</RelativeLayout>

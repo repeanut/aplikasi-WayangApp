@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F3EE"
+    android:visibility="visible"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="440dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="390dp"
+        android:background="@drawable/bgprofile" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="136dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="615dp"
+        android:src="@drawable/profileaccount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="579dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="REVINA"
+        android:textColor="@color/white"
+        android:textSize="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="560dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="View and edit profile"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="111dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="440dp"
+        android:src="@drawable/buttonprofile2" />
+
+    <ImageView
+        android:layout_width="372dp"
+        android:layout_height="152dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="243dp"
+        android:src="@drawable/buttonprofile3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="508dp"
+        android:background="@drawable/person" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="456dp"
+        android:background="@drawable/lock" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="356dp"
+        android:background="@drawable/notification" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="305dp"
+        android:background="@drawable/setting" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="529dp"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="254dp"
+        android:background="@drawable/logout" />
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="512dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Account"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="461dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Passwords"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="431dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="360dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Notifications"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="301dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Setting"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="529dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="252dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Logout"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+</RelativeLayout>

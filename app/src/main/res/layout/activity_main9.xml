@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95E7DBCB"
+    android:visibility="visible"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="440dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="390dp"
+        android:background="@drawable/wayangwong" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="432dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="-39dp"
+        android:layout_marginBottom="195dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F7F3EE" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="432dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-31dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="-44dp"
+        android:layout_marginBottom="-6dp"
+        android:background="@drawable/circle2"
+        android:backgroundTint="#F7F3EE" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="534dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Apa Itu Wayang Wong?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="466dp"
+        android:src="@drawable/bg_mahyang" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="653dp"
+        android:src="@drawable/wygwong" />
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="425dp"
+        android:src="@drawable/button9" />
+
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="299dp"
+        android:fontFamily="@font/m_plus_1p_bold"
+        android:text="       esuai dengan nama sebutannya, wayang tersebut tidak \n       lagi dipergelarkan dengan memainkan boneka-boneka wayang (wayang kulit yang biasanya terbuat dari bahan kulit kerbau ataupun yang lain), akan tetapi menampilkan manusia-manusia sebagai pengganti boneka-boneka wayang tersebut. Mereka memakai pakaian sama seperti hiasan-hiasan yang dipakai pada wayang kulit. Supaya bentuk muka atau bangun muka mereka menyerupai wayang kulit (kalau dilihat dari samping), sering kali pemain wayang wong ini diubah/dihias mukanya dengan tambahan gambar atau lukisan."
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="373dp"
+        android:fontFamily="@font/m_plus_1p_bold"
+        android:text="S"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="363dp"
+        android:layout_height="325dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-45dp"
+        android:src="@drawable/wayangwong1" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-17dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="212dp"
+        android:src="@drawable/kshramayana" />
+
+
+</RelativeLayout>

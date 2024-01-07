@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95E7DBCB"
+    android:visibility="visible"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="440dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="390dp"
+        android:background="@drawable/wayangklitik" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="432dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-37dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="-39dp"
+        android:layout_marginBottom="195dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#F7F3EE" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="432dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-31dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="-44dp"
+        android:layout_marginBottom="-6dp"
+        android:background="@drawable/circle2"
+        android:backgroundTint="#F7F3EE" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="539dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Apa Itu Wayang Klitik?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="263dp"
+        android:layout_marginBottom="491dp"
+        android:src="@drawable/bg_mahyang" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="343dp"
+        android:src="@drawable/bg_mahyang" />
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="260dp"
+        android:fontFamily="@font/m_plus_1p_bold"
+        android:text="           ayang Klithik adalah seni pertunjukan wayang mirip \n           wayang kulit namun menggunakan wayang yang terbuat \ndari kayu pipih dengan tangan terbuat dari kulit sehingga mudah \ndigerak-gerakkan oleh dalang. Berbeda dengan wayang kulit, kelir (layar) wayang klithik terdapat lubang segi empat di depan dalangnya (menyerupai jendela). Gamelan yang mengiringi pertunjukannya juga hanya sederhana dan berlaras slendro, tidak sekomplit wayang kulit.
+\n\nLakon yang dimainkannya biasanya Cerita Panji , namun tidak jarang juga Cerita Menak dan Damar Wulan . Konon wayang krucil diciptakan oleh Pangeran Pekik dari Surabaya, namun sumber lain menyebut Sunan Kudus, Sunan Bonang atau juga ada yang mengatakan diciptakan oleh Raja Brawijaya V."
+        android:textColor="@color/black"
+        android:textSize="11.5dp" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="373dp"
+        android:fontFamily="@font/m_plus_1p_bold"
+        android:text="W"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="247dp"
+        android:layout_height="235dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="-35dp"
+        android:layout_marginBottom="12dp"
+        app:srcCompat="@drawable/wayangklitik1" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="653dp"
+        android:src="@drawable/bg_wygklitik" />
+
+    <ImageView
+        android:layout_width="292dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-22dp"
+        android:layout_marginTop="659dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="89dp"
+        android:src="@drawable/dmrwln" />
+
+
+</RelativeLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F3EE"
+    tools:context=".MainActivity4">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/searchCardView"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="743dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="100dp"
+        tools:ignore="MissingClass" />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="359dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/baseline_search_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/lilita_one"
+        android:hint="apa yang ingin kamu cari?"
+        android:padding="12dp"
+        android:textColorHint="#A89F9F"
+        android:textSize="16dp" />
+</RelativeLayout>
+
+
+<VideoView
+android:id="@+id/videoView"
+android:layout_width="393dp"
+android:layout_height="226dp"
+tools:ignore="MissingConstraints"
+tools:layout_editor_absoluteX="-2dp" />
+
+<HorizontalScrollView
+android:id="@+id/horizontalScrollView"
+android:layout_width="397dp"
+android:layout_height="148dp"
+android:layout_marginEnd="-139dp"
+android:backgroundTint="#F7F3EE"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/videoView"
+app:layout_constraintVertical_bias="0.477">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F7F3EE"
+        android:src="@drawable/wayangkulitscroll1" />
+
+    <ImageButton
+        android:id="@+id/wygbeber"
+        android:onClick="onwygbeberClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F7F3EE"
+        android:src="@drawable/wayangbeberscroll" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F7F3EE"
+        android:src="@drawable/wayangklitikscroll" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F7F3EE"
+        android:src="@drawable/wayanggolekscroll" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F7F3EE"
+        android:src="@drawable/wayangwongscroll" />
+
+</LinearLayout>
+</HorizontalScrollView>
+
+<TextView
+android:layout_width="196dp"
+android:layout_height="23dp"
+android:layout_marginTop="272dp"
+android:fontFamily="@font/lilita_one"
+android:text="Saatnya Kita Cari Tau!"
+android:textColor="@color/black"
+android:textSize="20dp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.081"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/videoView"
+app:layout_constraintVertical_bias="0.0" />
+
+<TextView
+android:layout_width="196dp"
+android:layout_height="23dp"
+android:layout_marginTop="272dp"
+android:fontFamily="@font/lilita_one"
+android:text="Kisah Popular"
+android:textColor="@color/black"
+android:textSize="20dp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.081"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/videoView"
+app:layout_constraintVertical_bias="0.412" />
+
+
+<androidx.cardview.widget.CardView
+android:layout_width="163dp"
+android:layout_height="60dp"
+android:layout_alignParentEnd="true"
+android:layout_alignParentBottom="true"
+android:layout_marginEnd="205dp"
+android:layout_marginBottom="208dp"
+android:backgroundTint="#3E3D38"
+app:cardCornerRadius="50dp" />
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:backgroundTint="#3E3D38"
+android:fontFamily="@font/lilita_one"
+android:padding="0dp"
+android:text="Ramayana"
+android:textAllCaps="false"
+android:textColor="@color/white"
+android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+android:layout_width="163dp"
+android:layout_height="60dp"
+android:layout_alignParentEnd="true"
+android:layout_alignParentBottom="true"
+android:layout_marginEnd="25dp"
+android:layout_marginBottom="207dp"
+android:backgroundTint="#3E3D38"
+app:cardBackgroundColor="#3E3D38"
+app:cardCornerRadius="50dp">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#3E3D38"
+    android:fontFamily="@font/lilita_one"
+    android:padding="0dp"
+    android:text="Mahabharata"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    android:textSize="20dp"
+    android:visibility="visible" />
+</androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
